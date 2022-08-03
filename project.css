@@ -306,9 +306,27 @@ h2{
     float: center;
     margin-left: 15%;
 }
+button{
+  color: #08596A;
+  margin: 10px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover{
+  font-style: italic;
+}
 
 .img-profile img{
   float: right;
+}
+
+.garis-vertikal{
+  border-left: 6px solid #407d89;
+  height: 200px;
+  width : 1px;
 }
 
 h4, h5{
@@ -357,8 +375,8 @@ input, textarea{
 }
 
 .team-box:hover{
-  background-color: #8eb9c2;
-  z-index: 10;
+  background-color: #b8cdd2;
+  z-index: 11;
   border-top-right-radius: 0%;
   border-bottom-right-radius: 0%;
   transition-duration: 0.3s;
@@ -366,7 +384,8 @@ input, textarea{
   height: 100%;
 }
 
-.team-box img{
-  z-index: -10;
+.team-image{
+  z-index: -90;
   border-radius: 20px;
 }
+
