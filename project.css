@@ -372,6 +372,10 @@ input, textarea{
   background-color: #407d89;
   height: 20%;
   color: white;
+  z-index: 20;
+  opacity: 0.8;
+  padding: 10px;
+  position: relative;
 }
 
 .team-box:hover{
@@ -382,10 +386,12 @@ input, textarea{
   transition-duration: 0.3s;
   color: #03252c;
   height: 100%;
+  opacity: 0.8;
+  position: relative;
 }
 
-.team-image{
-  z-index: -90;
-  border-radius: 20px;
+.team-box img{
+  position: relative;
+  z-index: -9;
 }
 
